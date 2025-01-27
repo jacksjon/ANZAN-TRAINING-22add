@@ -15,6 +15,7 @@ function questionGenerate() {
    $('question').innerHTML = (question1 + '+' + question2);
    $('answer-display').innerHTML = 'NO COMMENTS';
    $('answer-display').style.color = 'gray';
+   $('answer').value = '';
 }
 function answerCheck() {
   if (($('answer').value) == (question1 + question2)) {
